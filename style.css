@@ -43,7 +43,6 @@ body{
     letter-spacing: 24px;
     margin-right: -24px;
     text-transform: uppercase;
-    color: hsl(170, 45%, 43%);
 }
 
 .content .details{
@@ -100,4 +99,13 @@ body{
 }
 .buttons .check-word{
     background: #5372F0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .buttons .check-word{
+        background: #000;
+    }
+    
+
 }
